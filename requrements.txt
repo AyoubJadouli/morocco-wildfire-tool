@@ -1,0 +1,34 @@
+# 📦 Morocco Wildfire Tool Dependencies
+
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+gradio>=5.0.0
+click>=8.1.0
+
+# Geospatial
+geopandas>=0.14.0
+shapely>=2.0.0
+folium>=0.15.0
+rasterio>=1.3.0
+
+# Visualization
+plotly>=5.18.0
+matplotlib>=3.7.0
+
+# Data Processing
+scikit-learn>=1.3.0
+scipy>=1.11.0
+netCDF4>=1.6.0
+xarray>=2023.0.0
+
+# Utilities
+requests>=2.31.0
+tqdm>=4.66.0
+python-dateutil>=2.8.0
+haversine>=2.8.0
+pyarrow>=14.0.0  # For parquet support
+
+# Optional for better performance
+numba>=0.58.0
+bottleneck>=1.3.0
